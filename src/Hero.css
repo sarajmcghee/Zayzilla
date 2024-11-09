@@ -9,7 +9,7 @@
     color: #1a1a1a;
     text-align: center;
     opacity: 0; /* Start with opacity 0 */
-    animation: fadeIn 1.5s forwards ease-in-out; /* Apply fade-in animation */
+    animation: fadeIn 3s forwards ease-in-out; /* Apply fade-in animation */
 }
 
 .hero-image {
