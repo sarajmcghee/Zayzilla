@@ -2,22 +2,38 @@
 import React from 'react';
 
 const Testimonials = () => {
+  const testimonials = [
+    {
+      id: 1,
+      name: 'John Doe',
+      review: 'Zayzilla Training helped me get in the best shape of my life. Highly recommended!',
+      image: 'https://via.placeholder.com/100',
+    },
+    {
+      id: 2,
+      name: 'Jane Smith',
+      review: 'Amazing coaching and great results. I feel stronger and more confident!',
+      image: 'https://via.placeholder.com/100',
+    },
+    {
+      id: 3,
+      name: 'Robert Brown',
+      review: 'The program is very personalized. It truly helped me achieve my goals!',
+      image: 'https://via.placeholder.com/100',
+    },
+  ];
+
   return (
-    <section id="testimonials" style={{ padding: '2rem', backgroundColor: 'white', color: 'black' }}>
-      <h2>What My Clients Say</h2>
-      <div style={{ display: 'flex', justifyContent: 'space-around' }}>
-        <div>
-          <p>"I've achieved amazing results with this trainer! Highly recommend!"</p>
-          <img src="https://via.placeholder.com/100" alt="Client 1" />
-        </div>
-        <div>
-          <p>"Customized plans that work! I've never felt better."</p>
-          <img src="https://via.placeholder.com/100" alt="Client 2" />
-        </div>
-        <div>
-          <p>"Professional, knowledgeable, and motivating!"</p>
-          <img src="https://via.placeholder.com/100" alt="Client 3" />
-        </div>
+    <section className="testimonials-section">
+      <h2>Client Testimonials</h2>
+      <div className="testimonials">
+        {testimonials.map((testimonial) => (
+          <div key={testimonial.id} className="testimonial-card">
+            <img src={testimonial.image} alt={testimonial.name} className="testimonial-image" />
+            <p className="testimonial-review">{testimonial.review}</p>
+            <p className="testimonial-name">{testimonial.name}</p>
+          </div>
+        ))}
       </div>
     </section>
   );
