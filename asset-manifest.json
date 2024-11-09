@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Zayzilla/static/css/main.6171be5e.css",
+    "main.css": "/Zayzilla/static/css/main.54ed0f16.css",
     "main.js": "/Zayzilla/static/js/main.af2137b2.js",
     "static/js/453.6ab39969.chunk.js": "/Zayzilla/static/js/453.6ab39969.chunk.js",
     "static/media/fa-solid-900.ttf": "/Zayzilla/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
@@ -13,12 +13,12 @@
     "static/media/fa-v4compatibility.ttf": "/Zayzilla/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
     "static/media/fa-v4compatibility.woff2": "/Zayzilla/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/Zayzilla/index.html",
-    "main.6171be5e.css.map": "/Zayzilla/static/css/main.6171be5e.css.map",
+    "main.54ed0f16.css.map": "/Zayzilla/static/css/main.54ed0f16.css.map",
     "main.af2137b2.js.map": "/Zayzilla/static/js/main.af2137b2.js.map",
     "453.6ab39969.chunk.js.map": "/Zayzilla/static/js/453.6ab39969.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6171be5e.css",
+    "static/css/main.54ed0f16.css",
     "static/js/main.af2137b2.js"
   ]
 }
