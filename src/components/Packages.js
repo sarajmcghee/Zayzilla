@@ -7,9 +7,9 @@ const Packages = () => {
 
   // Updated package names and descriptions
   const packages = [
-    { id: 1, name: 'Online Training', price: '$50', description: 'Remote coaching and personalized workouts.' },
-    { id: 2, name: '8 Week Muscle Building', price: '$100', description: 'An 8-week plan designed to build muscle.' },
-    { id: 3, name: '8 Week Shredding', price: '$100', description: 'An 8-week plan focused on fat loss and conditioning.' },
+    { id: 1, name: 'Online Training', price: '$600', description: 'Remote coaching and personalized workouts.' },
+    { id: 2, name: '8 Week Muscle Building', price: '$600', description: 'An 8-week plan designed to build muscle.' },
+    { id: 3, name: '8 Week Shredding', price: '$600', description: 'An 8-week plan focused on fat loss and conditioning.' },
   ];
 
   // Handler for adding package to cart
