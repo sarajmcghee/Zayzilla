@@ -5,23 +5,32 @@ import { CartContext } from '../CartContext';
 const Packages = () => {
   const { addToCart } = useContext(CartContext);
 
+  // Updated package names and descriptions
   const packages = [
-    { id: 1, name: 'Basic Package', price: 50, description: 'Perfect for beginners.' },
-    { id: 2, name: 'Advanced Package', price: 100, description: 'For advanced athletes.' },
-    { id: 3, name: 'Pro Package', price: 150, description: 'One-on-one training sessions.' },
+    { id: 1, name: 'Online Training', price: '$50', description: 'Remote coaching and personalized workouts.' },
+    { id: 2, name: '8 Week Muscle Building', price: '$100', description: 'An 8-week plan designed to build muscle.' },
+    { id: 3, name: '8 Week Shredding', price: '$100', description: 'An 8-week plan focused on fat loss and conditioning.' },
   ];
 
+  // Handler for adding package to cart
+  const handleAddToCart = (pkg) => {
+    addToCart(pkg); // Add the package to the cart
+  };
+
   return (
-    <section id="packages" style={{ padding: '2rem', backgroundColor: 'white', color: 'black' }}>
+    <section id="packages" className="packages-section">
       <h2>Training Packages</h2>
-      <div style={{ display: 'flex', justifyContent: 'space-around' }}>
+      <div className="packages">
         {packages.map((pkg) => (
-          <div key={pkg.id} style={{ border: '1px solid black', padding: '1rem', width: '200px' }}>
+          <div key={pkg.id} className="package-card">
             <h3>{pkg.name}</h3>
             <p>{pkg.description}</p>
-            <p>Price: ${pkg.price}</p>
-            <button onClick={() => addToCart(pkg)} style={{ backgroundColor: 'black', color: 'white' }}>
-              Add to Cart
+            <p className="price">{pkg.price}</p>
+            <button 
+              className="package-button" 
+              onClick={() => handleAddToCart(pkg)} // Pass the package to handleAddToCart
+            >
+              Select Plan
             </button>
           </div>
         ))}
