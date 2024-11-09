@@ -10,6 +10,7 @@
     text-align: center;
     opacity: 0; /* Start with opacity 0 */
     animation: fadeIn 3s forwards ease-in-out; /* Apply fade-in animation */
+    z-index: 10; /* Ensures hero section is on top */
 }
 
 .hero-image {

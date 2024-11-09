@@ -9,8 +9,21 @@ const MenuBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);  // State for the mobile menu visibility
   const navigate = useNavigate();
 
-  // Toggle cart dropdown visibility
-  const toggleCart = () => setShowCart((prev) => !prev);
+  // Toggle cart dropdown visibility and close the mobile menu if open
+  const toggleCart = () => {
+    setShowCart((prev) => !prev);
+    if (isMenuOpen) {
+      setIsMenuOpen(false); // Close the hamburger menu if cart is clicked
+    }
+  };
+
+  // Toggle the mobile menu and close the cart if open
+  const toggleMobileMenu = () => {
+    setIsMenuOpen((prev) => !prev);
+    if (showCart) {
+      setShowCart(false); // Close the cart if the hamburger menu is clicked
+    }
+  };
 
   // Navigate to the checkout page
   const handleCheckout = () => {
@@ -22,9 +35,19 @@ const MenuBar = () => {
     navigate('/');
   };
 
-  // Toggle the mobile menu
-  const toggleMobileMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
+  // Function to handle navigation and scroll to section
+  const handleMenuItemClick = (target) => {
+    // Close the hamburger menu
+    setIsMenuOpen(false);
+    
+    // Scroll to the section smoothly
+    const element = document.querySelector(target);
+    if (element) {
+      window.scrollTo({
+        top: element.offsetTop,
+        behavior: 'smooth'
+      });
+    }
   };
 
   return (
@@ -165,7 +188,7 @@ const MenuBar = () => {
             background: 'none',
             border: 'none',
             fontFamily: 'Arial, sans-serif'  // Matching the font family
-          }} onClick={() => window.location.href = '#about'}>
+          }} onClick={() => handleMenuItemClick('#about')}>
             About
           </button>
           <button style={{
@@ -175,7 +198,7 @@ const MenuBar = () => {
             background: 'none',
             border: 'none',
             fontFamily: 'Arial, sans-serif'  // Matching the font family
-          }} onClick={() => window.location.href = '#packages'}>
+          }} onClick={() => handleMenuItemClick('#packages')}>
             Packages
           </button>
           <button style={{
@@ -185,7 +208,7 @@ const MenuBar = () => {
             background: 'none',
             border: 'none',
             fontFamily: 'Arial, sans-serif'  // Matching the font family
-          }} onClick={() => window.location.href = '#testimonials'}>
+          }} onClick={() => handleMenuItemClick('#testimonials')}>
             Testimonials
           </button>
           <button style={{
@@ -195,7 +218,7 @@ const MenuBar = () => {
             background: 'none',
             border: 'none',
             fontFamily: 'Arial, sans-serif'  // Matching the font family
-          }} onClick={() => window.location.href = '#contact'}>
+          }} onClick={() => handleMenuItemClick('#contact')}>
             Contact
           </button>
         </div>
