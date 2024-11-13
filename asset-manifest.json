@@ -1,24 +1,35 @@
 {
   "files": {
-    "main.css": "/Zayzilla/static/css/main.54ed0f16.css",
-    "main.js": "/Zayzilla/static/js/main.4dd083f6.js",
+    "main.css": "/Zayzilla/static/css/main.7a14b8f8.css",
+    "main.js": "/Zayzilla/static/js/main.66fe49a7.js",
     "static/js/453.6ab39969.chunk.js": "/Zayzilla/static/js/453.6ab39969.chunk.js",
     "static/media/fa-solid-900.ttf": "/Zayzilla/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/testimonial5.jpg": "/Zayzilla/static/media/testimonial5.f7c3edafdec740f60808.jpg",
     "static/media/fa-brands-400.ttf": "/Zayzilla/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
     "static/media/fa-solid-900.woff2": "/Zayzilla/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/testimonial1.jpg": "/Zayzilla/static/media/testimonial1.bcb8b49346a523ebc280.jpg",
+    "static/media/testimonial4.jpg": "/Zayzilla/static/media/testimonial4.729f922182ecdeff27ef.jpg",
     "static/media/fa-brands-400.woff2": "/Zayzilla/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/aboutme.jpg": "/Zayzilla/static/media/aboutme.e736a8c406ed55e91b9d.jpg",
     "static/media/Zay.JPG": "/Zayzilla/static/media/Zay.9e6965fbce23090c19db.JPG",
     "static/media/fa-regular-400.ttf": "/Zayzilla/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
     "static/media/fa-regular-400.woff2": "/Zayzilla/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/testimonial3.jpg": "/Zayzilla/static/media/testimonial3.b86d7071d5d7fa1676af.jpg",
+    "static/media/testimonial6.jpg": "/Zayzilla/static/media/testimonial6.b8aac33852456b4886ec.jpg",
     "static/media/fa-v4compatibility.ttf": "/Zayzilla/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/testimonial2.jpg": "/Zayzilla/static/media/testimonial2.92c6bbd748028a16de29.jpg",
     "static/media/fa-v4compatibility.woff2": "/Zayzilla/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "static/media/slick.svg": "/Zayzilla/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Zayzilla/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Zayzilla/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Zayzilla/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Zayzilla/index.html",
-    "main.54ed0f16.css.map": "/Zayzilla/static/css/main.54ed0f16.css.map",
-    "main.4dd083f6.js.map": "/Zayzilla/static/js/main.4dd083f6.js.map",
+    "main.7a14b8f8.css.map": "/Zayzilla/static/css/main.7a14b8f8.css.map",
+    "main.66fe49a7.js.map": "/Zayzilla/static/js/main.66fe49a7.js.map",
     "453.6ab39969.chunk.js.map": "/Zayzilla/static/js/453.6ab39969.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.54ed0f16.css",
-    "static/js/main.4dd083f6.js"
+    "static/css/main.7a14b8f8.css",
+    "static/js/main.66fe49a7.js"
   ]
 }
