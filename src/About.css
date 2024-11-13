@@ -1,0 +1,13 @@
+/* src/components/About.css */
+.about-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.about-trainer-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 15px; /* Adjust the value to make the corners more or less rounded */
+  margin-top: 20px;
+}

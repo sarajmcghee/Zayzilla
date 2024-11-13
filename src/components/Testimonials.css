@@ -1,0 +1,59 @@
+/* src/components/Testimonials.css */
+.testimonials-section {
+    background-color: rgb(37, 33, 34); /* Dark Gray background color */
+    color: rgb(251, 250, 248); /* Light Cream primary text color */
+    padding: 20px;
+  }
+  
+  .testimonial-slide {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .testimonial-card {
+    flex: 1 1 100%; /* Full width on smaller screens */
+    max-width: 300px; /* Adjust the maximum width as needed */
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(35, 33, 34); /* Slight variation in dark color */
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden; /* Ensure content stays within the card */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+  
+  .testimonial-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover; /* Maintain aspect ratio */
+  }
+  
+  .testimonial-review {
+    font-style: italic;
+    color: rgb(251, 249, 250); /* Light Pinkish Gray minor variation in light color */
+    margin-top: 10px;
+    word-wrap: break-word; /* Ensure long words break to fit within the card */
+  }
+  
+  .testimonial-name {
+    font-weight: bold;
+    color: rgb(251, 250, 248); /* Light Cream primary text color */
+    margin-top: 10px;
+    word-wrap: break-word; /* Ensure long words break to fit within the card */
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .testimonial-card {
+      flex: 1 1 100%; /* Full width on smaller screens */
+      max-width: 100%; /* Ensure it takes the full width */
+    }
+  
+    .testimonial-image {
+      width: 100%; /* Adjust the width to fit within the card */
+      height: auto; /* Maintain aspect ratio */
+      max-height: 300px; /* Set a maximum height for the image */
+    }
+  }

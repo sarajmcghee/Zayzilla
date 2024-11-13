@@ -239,37 +239,6 @@ nav h1 {
   margin-top: 2rem;
 }
 
-.testimonial-card {
-  width: 250px;
-  padding: 1rem;
-  background-color: #f8f8f8;
-  border: 1px solid #e0e0e0;
-  border-radius: 8px;
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.testimonial-image {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 1rem;
-}
-
-.testimonial-review {
-  font-size: 1rem;
-  line-height: 1.4;
-  color: #333;
-  margin-bottom: 1rem;
-}
-
-.testimonial-name {
-  font-weight: bold;
-  color: #333;
-  font-size: 1.1rem;
-}
-
 /* Media Queries for Responsiveness */
 
 /* For Tablets and Mobile Phones */
@@ -291,10 +260,7 @@ nav h1 {
     margin: 0.5rem 0; /* Reduce margin on very small screens */
   }
 
-  .testimonial-image {
-    width: 80px; /* Smaller images on very small screens */
-    height: 80px;
-  }
+
 
   .testimonial-review {
     font-size: 0.9rem; /* Smaller review text */
